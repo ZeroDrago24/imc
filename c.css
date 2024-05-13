@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('file:///C:/Users/HP/Desktop/imc/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  #imc {
+    background-color: #FFB74D; 
+  }
+  
+  #edad-mascota {
+    background-color: #81C784; 
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  #resultado-imc,
+  #resultado-edad-mascota {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    #imc {
+      background-color: #FF8A65; 
+    }
+  
+    #edad-mascota {
+      background-color: #BA68C8; 
+    }
+  }
+  
+  @media (max-width: 360px) {
+    #imc {
+      background-color: #64B5F6; 
+    }
+  
+    #edad-mascota {
+      background-color: #D7CCC8; 
+    }
+  }
+  
